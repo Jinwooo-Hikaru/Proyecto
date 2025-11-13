@@ -16,7 +16,8 @@ es_mayor = edad >= 18
 
 print (f"Hola {nombre},tienes aproximadamente {edad} años.")
 if es_mayor:
-    print ("Eres mayor de edad.")
+    print (f"Eres mayor de edad.")
 else:
-    print ("Eres menor de edad.")
+    print (f"Eres menor de edad.")
+print(f"\nGracias por usar nuestra calculadora")
     
