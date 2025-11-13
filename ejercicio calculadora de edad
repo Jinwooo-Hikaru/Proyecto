@@ -1,0 +1,22 @@
+# solicitar datos de usuario
+
+nombre = input ("¿Cual es tu nombre?")
+año_nacimiento = int(input ("¿En que año naciste?"))
+
+# calcular edad
+
+año_actual = 2025
+edad = año_actual-año_nacimiento
+
+# verificar mayoria de edad
+
+es_mayor = edad >= 18
+
+# mostrar resultados
+
+print (f"Hola {nombre},tienes aproximadamente {edad} años.")
+if es_mayor:
+    print ("Eres mayor de edad.")
+else:
+    print ("Eres menor de edad.")
+    
